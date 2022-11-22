@@ -17,7 +17,6 @@
   };
 };
 
-
 / {
     behaviors {
         lh_pht: left_hand_positional_hold_tap {
@@ -46,8 +45,7 @@
           };
        };
     };
-  
-  
+
 / {
         keymap {
                 compatible = "zmk,keymap";
@@ -106,4 +104,5 @@
                                                   &trans         &none          &none                                 &none          &none          &none
                         >;
                  };
+            };
 };

@@ -30,6 +30,8 @@
             bindings = <&kp>, <&kp>;
         };
     };
+};
+
 
 / {
         keymap {
@@ -40,7 +42,7 @@
                         bindings = <
 
    &kp ESC          &kp Q              &kp W              &kp F              &kp P              &kp G                 &kp J          &kp L              &kp U              &kp Y              &kp BRCCED            &kp SEMI
-   &kp TAB          &hm LSFT  A        &hm LCTL R         &hm LALT S         &hm LGUI T         &kp D                 &kp H          &hm RGUI N         &hm RALT E         &hm LCTL I         &hm RSFT O            &kp SQT
+   &kp TAB          &hm LSFT A         &hm LCTL R         &hm LALT S         &hm LGUI T         &kp D                 &kp H          &hm RGUI N         &hm RALT E         &hm LCTL I         &hm RSFT O            &kp SQT
    &kp CAPS         &kp Z              &kp X              &kp C              &kp V              &kp B                 &kp K          &kp M              &kp COMMA          &kp DOT            &kp FSLH              &kp ENTER
                                                           &mo 4              &mo 1              &kp SPACE             &kp BSPC       &mo 2              &mo 3
                         >;

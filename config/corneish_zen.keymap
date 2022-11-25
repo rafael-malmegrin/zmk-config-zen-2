@@ -24,10 +24,10 @@
                         label = "QWERTY";
                         bindings = <
 
-   &kp ESC          &kp Q          &kp W          &kp F          &kp P          &kp G                              &kp J          &kp L          &kp U          &kp Y           &kp SEMI        &kp BRCCED
+   &kp ESC          &kp Q          &kp W          &kp F          &kp P          &kp G                              &kp J          &kp L          &kp U          &kp Y           &kp BRCCED      &kp SEMI
    &lt 3 TAB        &kp A          &kp R          &kp S          &kp T          &kp D                              &kp H          &kp N          &kp E          &kp I           &kp O           &kp SQT
    &kp LSHFT        &kp Z          &kp X          &kp C          &kp V          &kp B                              &kp K          &kp M          &kp COMMA      &kp DOT         &kp FSLH        &mt RSHIFT RET
-                                                  &kp LALT       &kp LGUI       &lt 1 SPACE                        &lt 2 BSPC     &kp RGUI       &kp RALT
+                                                  &kp LALT       &kp LGUI       &lt 1 SPACE                        &lt 2 BSPC     &kp RGUI       &kp LCTRL
                         >;
                 };
 
@@ -38,7 +38,7 @@
    &kp TILDE        &kp EXCL       &kp AT         &kp HASH       &kp DLLR       &kp PRCNT                          &kp CARET      &kp AMPS       &kp ASTRK      &kp LPAR        &kp RPAR        &kp BKSP
    &kp DEL          &none          &none          &none          &kp SPACE      &none                              &none          &kp UNDER      &kp PLUS       &kp LBRC        &kp RBRC        &kp PIPE
    &kp LSHFT        &none          &none          &none          &none          &kp PRINT_3                        &kp PRINT_4    &kp LEFT       &kp DOWN       &kp UP          &kp RIGHT       &none 
-                                                  &none          &none          &trans                             &kp BSPC       &kp RGUI       &kp RALT
+                                                  &none          &none          &trans                             &kp BSPC       &kp RGUI       &kp LCTRL
                         >;
                 };
 

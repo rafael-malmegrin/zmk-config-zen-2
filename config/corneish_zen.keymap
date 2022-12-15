@@ -85,8 +85,8 @@
                         label = "BT";
                         bindings = <
 
-   &kp RCTL         &none          &kp EXP_WEB    &none          &none          &none                                 &bt BT_CLR     &bt BT_SEL 0   &bt BT_SEL 1    &bt BT_SEL 2    &bt BT_SEL 3   &bt BT_SEL 4
-   &none            &none          &none          &kp EXP_AS     &none          &kp PRINT_1                           &kp PRINT_2    &none          &none           &none           &none          &none
+   &kp RCTL         &none          &kp EXP_AS     &none          &none          &none                                 &bt BT_CLR     &bt BT_SEL 0   &bt BT_SEL 1    &bt BT_SEL 2    &bt BT_SEL 3   &bt BT_SEL 4
+   &none            &none          &none          &kp EXP_WEB    &none          &kp PRINT_1                           &kp PRINT_2    &none          &none           &none           &none          &none
    &none            &none          &none          &none          &none          &kp PRINT_3                           &kp PRINT_4    &none          &none           &none           &none          &none
                                                   &trans         &none          &none                                 &none          &none          &none
                         >;

@@ -9,6 +9,10 @@
 #define EXP_AS     LG(LS(LA(W)))
 #define EXP_WEB    LG(LS(LA(S)))
 #define BRCCED     LA(C)
+#define COPY       LG(C)
+#define PASTE      LG(V)
+#define GROUP      LG(G)
+#define TSFM       LG(T)
 
 / {
   chosen {
@@ -85,9 +89,9 @@
                         label = "BT";
                         bindings = <
 
-   &kp RCTL         &none          &kp EXP_AS     &none          &none          &none                                 &bt BT_CLR     &bt BT_SEL 0   &bt BT_SEL 1    &bt BT_SEL 2    &bt BT_SEL 3   &bt BT_SEL 4
-   &none            &none          &none          &kp EXP_WEB    &none          &kp PRINT_1                           &kp PRINT_2    &none          &none           &none           &none          &none
-   &none            &none          &none          &none          &none          &kp PRINT_3                           &kp PRINT_4    &none          &none           &none           &none          &none
+   &kp RCTL         &none          &kp EXP_AS     &none          &none          &kp GROUP                             &bt BT_CLR     &bt BT_SEL 0   &bt BT_SEL 1    &bt BT_SEL 2    &bt BT_SEL 3   &bt BT_SEL 4
+   &none            &none          &none          &kp EXP_WEB    &kp TSFM       &kp PRINT_1                           &kp PRINT_2    &none          &none           &none           &none          &none
+   &none            &none          &none          &kp COPY       &kp PASTE      &kp PRINT_3                           &kp PRINT_4    &none          &none           &none           &none          &none
                                                   &trans         &none          &none                                 &none          &none          &none
                         >;
                  };

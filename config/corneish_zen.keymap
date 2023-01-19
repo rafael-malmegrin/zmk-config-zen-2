@@ -90,7 +90,7 @@
                         label = "GAMING";
                         bindings = <
 
-   &none            &none          &none          &none          &none          &none                                 &none          &none          &kp UP         &none           &none           &none
+   &kp ESC          &none          &none          &none          &none          &none                                 &none          &none          &kp UP         &none           &none           &none
    &none            &none          &none          &none          &kp SPACE      &none                                 &none          &kp LEFT       &kp DOWN       &kp RIGHT       &none           &none
    &none            &none          &none          &none          &none          &none                                 &none          &none          &none          &none           &none           &none
                                                   &none          &mo 5          &none                                 &none          &none          &none  

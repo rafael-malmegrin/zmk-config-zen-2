@@ -93,7 +93,7 @@
    &kp ESC          &none          &none          &none          &none          &none                                 &none          &none          &kp UP         &none           &none           &none
    &none            &none          &none          &none          &kp SPACE      &none                                 &none          &kp LEFT       &kp DOWN       &kp RIGHT       &none           &none
    &none            &none          &none          &none          &none          &none                                 &none          &none          &none          &none           &none           &none
-                                                  &none          &mo 5          &none                                 &none          &none          &none  
+                                                  &mo 5          &none          &none                                 &none          &none          &none  
                         >;
                 };
 
@@ -102,7 +102,7 @@
                         bindings = <
 
    &kp RCTL         &none          &kp EXP_AS     &kp PINP       &none          &kp GROUP                             &bt BT_CLR     &bt BT_SEL 0   &bt BT_SEL 1    &bt BT_SEL 2    &bt BT_SEL 3   &bt BT_SEL 4
-   &none            &kp SELALL     &none          &kp EXP_WEB    &kp TSFM       &kp PRINT_1                           &kp PRINT_2    &none          &none           &none           &to 1          &to 4
+   &none            &kp SELALL     &none          &kp EXP_WEB    &kp TSFM       &kp PRINT_1                           &kp PRINT_2    &none          &none           &none           &to 0          &to 4
    &none            &none          &kp LG (X)     &kp LG(C)      &kp LG(V)      &kp PRINT_3                           &kp PRINT_4    &none          &none           &none           &none          &none
                                                   &trans         &none          &none                                 &none          &none          &none
                         >;

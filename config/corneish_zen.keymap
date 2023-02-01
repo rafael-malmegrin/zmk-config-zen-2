@@ -79,10 +79,10 @@
                         label = "FUNCTION";
                         bindings = <
 
-   &none            &kp F1         &kp F2         &kp F3         &kp F4         &none                                 &none          &none          &none          &none           &none           &none
+   &none            &kp F1         &kp F2         &kp F3         &kp F4         &none                                 &none          &bt BT_SEL 0   &bt BT_SEL 1   &bt BT_SEL 2    &bt BT_SEL 3   &bt BT_SEL 4
    &none            &kp F5         &kp F6         &kp F7         &kp F8         &none                                 &none          &none          &none          &none           &none           &none
    &none            &kp F9         &kp F10        &kp F11        &kp F12        &none                                 &none          &none          &none          &none           &none           &none
-                                                  &none          &none          &none                                 &none          &none          &trans  
+                                                  &none          &none          &none                                 &bt BT_CLR     &none          &trans  
                         >;
                 };
 
@@ -97,13 +97,13 @@
                         >;
                 };
 
-                BT_layer {
+                macro_layer {
                         label = "BT";
                         bindings = <
 
-   &kp RCTL         &none          &kp EXP_AS     &kp PINP       &none          &kp GROUP                             &bt BT_CLR     &bt BT_SEL 0   &bt BT_SEL 1    &bt BT_SEL 2    &bt BT_SEL 3   &bt BT_SEL 4
+   &kp RCTL         &none          &kp EXP_AS     &kp PINP       &none          &kp GROUP                             &none          &none          &none           &none           &none          &none
    &none            &kp SELALL     &none          &kp EXP_WEB    &kp TSFM       &kp PRINT_1                           &kp PRINT_2    &none          &none           &none           &to 0          &to 4
-   &none            &none          &kp LG (X)     &kp LG(C)      &kp LG(V)      &kp PRINT_3                           &kp PRINT_4    &none          &none           &none           &none          &none
+   &none            &none          &kp LG(X)      &kp LG(C)      &kp LG(V)      &kp PRINT_3                           &kp PRINT_4    &none          &none           &none           &none          &none
                                                   &trans         &none          &none                                 &none          &none          &none
                         >;
                  };

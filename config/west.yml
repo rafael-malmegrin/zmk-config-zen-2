@@ -1,10 +1,10 @@
 manifest:
   remotes:
     - name: rafaelromao
-      url-base: https://github.com/rafaelromao/zmk
+      url-base: https://github.com/rafaelromao
   projects:
     - name: zmk
-      remote: zmk
+      remote: rafaelromao
       revision: 20240328/rafaelromao/main
       import: app/west.yml
   self:

@@ -1,11 +1,11 @@
 manifest:
   remotes:
-    - name: zmkfirmware
-      url-base: https://github.com/LOWPROKB
+    - name: rafaelromao
+      url-base: https://github.com/rafaelromao/zmk
   projects:
     - name: zmk
-      remote: zmkfirmware
-      revision: corne-ish-zen-v2
+      remote: zmk
+      revision: 20240328/rafaelromao/main
       import: app/west.yml
   self:
     path: config

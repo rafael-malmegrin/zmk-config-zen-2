@@ -48,7 +48,7 @@
                         bindings = <
 
    &kp ESC          &kp Q              &kp W              &kp F              &kp P              &kp G                 &kp J          &kp L              &kp U              &kp Y              &kp BRCCED            &kp SEMI
-   &kp TAB          &hm LSFT A         &hm LCTL R         &hm LALT S         &hm LGUI T         &kp D                 &kp H          &hm RGUI N         &hm RALT E         &hm LCTL I         &hm RSFT O            &kp SQT
+   &kp TAB          &rpi LSFT A        &rpi LCTL R        &rpi LALT S        &rpi LGUI T        &kp D                 &kp H          &rpi RGUI N        &rpi RALT E        &rpi LCTL I        &rpi RSFT O           &kp SQT
    &kp CAPS         &kp Z              &kp X              &kp C              &kp V              &kp B                 &kp K          &kp M              &kp COMMA          &kp DOT            &kp FSLH              &kp ENTER
                                                           &lt 5 I            &lt 1 M            &kp SPACE             &kp BSPC       &mo 2              &mo 3
                         >;

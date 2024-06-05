@@ -102,7 +102,7 @@
                         bindings = <
 
    &kp RCTL         &none          &kp EXP_AS     &kp PINP       &none          &kp GROUP                             &none          &KP_N7         &KP_N8          &KP_N9           &none          &none
-   &none            &kp SELALL     &none          &kp EXP_WEB    &kp TSFM       &kp PRINT_1                           &kp PRINT_2    &KP_N4         &KP_5           &KP_N6           &to 0          &to 4
+   &none            &kp SELALL     &none          &kp EXP_WEB    &kp TSFM       &kp PRINT_1                           &kp PRINT_2    &KP_N4         &KP_N5          &KP_N6           &to 0          &to 4
    &none            &none          &kp LG(X)      &kp LG(C)      &kp LG(V)      &kp PRINT_3                           &kp PRINT_4    &KP_N1         &KP_N2          &KP_N3           &none          &none
                                                   &trans         &none          &none                                 &none          &KP_N0         &none
                         >;

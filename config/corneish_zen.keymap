@@ -56,11 +56,11 @@
                 };
 
                 windows_layer {
-                        label = "COLEMAK";
+                        label = "WINDOWS";
                         bindings = <
 
    &kp ESC          &kp Q              &kp W              &kp F              &kp P              &kp G                 &kp J          &kp L              &kp U              &kp Y              &kp BRCCED            &kp SEMI
-   &kp TAB          &hm LSFT A         &hm LGUI R         &hm LALT S         &hm LCLT T         &kp D                 &kp H          &hm LCTL N         &hm RALT E         &hm RGUI I         &hm RSFT O            &kp SQT
+   &kp TAB          &hm LSFT A         &hm LGUI R         &hm LALT S         &hm LCTL T         &kp D                 &kp H          &hm LCTL N         &hm RALT E         &hm RGUI I         &hm RSFT O            &kp SQT
    &kp CAPS         &kp Z              &kp X              &kp C              &kp V              &kp B                 &kp K          &kp M              &kp COMMA          &kp DOT            &kp FSLH              &kp ENTER
                                                           &lt 5 I            &lt 1 M            &kp SPACE             &kp BSPC       &mo 2              &mo 3
                         >;

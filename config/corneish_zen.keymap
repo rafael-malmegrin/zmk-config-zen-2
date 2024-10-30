@@ -9,7 +9,7 @@
 #define EXP_AS     LG(LS(LA(W)))
 #define EXP_WEB    LG(LS(LA(S)))
 #define BRCCED     LA(C)
-#define WINCCED    LA(COMMA)
+#define WINCCED    RA(COMMA)
 #define GROUP      LG(G)
 #define TSFM       LG(T)
 #define SELALL     LG(A)

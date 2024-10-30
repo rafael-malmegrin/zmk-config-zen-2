@@ -51,7 +51,7 @@
    &kp ESC          &kp Q              &kp W              &kp F              &kp P              &kp G                 &kp J          &kp L              &kp U              &kp Y              &kp BRCCED            &kp SEMI
    &kp TAB          &hm LSFT A         &hm LCTL R         &hm LALT S         &hm LGUI T         &kp D                 &kp H          &hm RGUI N         &hm RALT E         &hm LCTL I         &hm RSFT O            &kp SQT
    &kp CAPS         &kp Z              &kp X              &kp C              &kp V              &kp B                 &kp K          &kp M              &kp COMMA          &kp DOT            &kp FSLH              &kp ENTER
-                                                          &lt 5 I            &lt 1 M            &kp SPACE             &kp BSPC       &mo 2              &mo 3
+                                                          &lt 6 I            &lt 2 M            &kp SPACE             &kp BSPC       &mo 3              &mo 4
                         >;
                 };
 
@@ -63,7 +63,7 @@
    &kp TAB          &hm LSFT A         &hm LGUI R         &hm LALT S         &hm LCTL T         &kp D                 &kp H          &hm LCTL N         &hm RALT E         &hm RGUI I         &hm RSFT O            &kp SQT
    &kp CAPS         &kp Z              &kp X              &kp C              &kp V              &kp B                 &kp K          &kp M              &kp COMMA          &kp DOT            &kp FSLH              &kp ENTER
                                                           &lt 5 I            &lt 1 M            &kp SPACE             &kp BSPC       &mo 2              &mo 3
-                        >;
+                        >
                 };
 
                 lower_layer {
@@ -106,7 +106,7 @@
    &kp ESC          &none          &none          &none          &none          &none                                 &none          &none          &kp UP         &none           &none           &none
    &none            &none          &none          &none          &kp SPACE      &none                                 &none          &kp LEFT       &kp DOWN       &kp RIGHT       &none           &none
    &none            &none          &none          &none          &none          &none                                 &none          &none          &none          &none           &none           &none
-                                                  &mo 5          &none          &none                                 &none          &none          &none  
+                                                  &mo 6          &none          &none                                 &none          &none          &none  
                         >;
                 };
 
@@ -114,8 +114,8 @@
                         label = "BT";
                         bindings = <
 
-   &kp RCTL         &none          &kp EXP_AS     &kp PINP       &none          &kp GROUP                             &none          &none                &none       &none        &none          &to 5
-   &none            &kp SELALL     &none          &kp EXP_WEB    &kp TSFM       &kp PRINT_1                           &kp PRINT_2    &kp WIN_SNP          &none       &none        &to 0          &to 4
+   &kp RCTL         &none          &kp EXP_AS     &kp PINP       &none          &kp GROUP                             &none          &none                &none       &none        &none          &to 1
+   &none            &kp SELALL     &none          &kp EXP_WEB    &kp TSFM       &kp PRINT_1                           &kp PRINT_2    &kp WIN_SNP          &none       &none        &to 0          &to 5
    &none            &none          &kp LG(X)      &kp LG(C)      &kp LG(V)      &kp PRINT_3                           &kp PRINT_4    &kp PRINTSCREEN      &none       &none        &none          &none
                                                   &trans         &none          &none                                 &none          &none                &none
                         >;

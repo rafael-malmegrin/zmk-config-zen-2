@@ -114,7 +114,7 @@
                         label = "BT";
                         bindings = <
 
-   &kp RCTL         &none          &kp EXP_AS     &kp PINP       &none          &kp GROUP                             &none          &none                &none           &none        &none          &to 1
+   &kp F13          &none          &kp EXP_AS     &kp PINP       &none          &kp GROUP                             &none          &none                &none           &none        &none          &to 1
    &none            &kp SELALL     &none          &kp EXP_WEB    &kp TSFM       &kp PRINT_1                           &kp PRINT_2    &kp PRINTSCREEN      &none           &none        &to 0          &to 5
    &none            &none          &kp LG(X)      &kp LG(C)      &kp LG(V)      &kp PRINT_3                           &kp PRINT_4    &kp WIN_SNP          &none           &none        &none          &none
                                                   &trans         &none          &none                                 &none          &none                &none
